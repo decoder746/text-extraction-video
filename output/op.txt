@@ -1,0 +1,7479 @@
+
+
+
+###################################### Frame 0 : 240 ###########################################
+
+
+Lecture 15: Semaphore:
+
+Mythili Vutukuru
+IIT Bombay
+
+
+
+###################################### Frame 240 : 360 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+
+(binary semaphore = mutex)
+
+sem_t ™;
+
+sem_init (gm, // initialize semaphore to X; what should xX ]
+
+0, X);
+sem_wait (sm);
+
+// critical section here
+
+sem_post (&m);
+
+Ficure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 360 : 480 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+
+(binary semaphore = mutex)
+
+sem_t mj
+sem_init(m, 0, X); // initialize semaphore to X; what should x &
+
+sem_wait (&m);
+// critical section here
+
+sem_post (&m)};
+
+Figure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 480 : 660 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+
+(binary semaphore = mutex)
+
+sem_t m;
+// initialize semaphore to X; what should X k
+
+sem_init(&m, 0, X);
+
+sem_wait (&m);
+// critical section here
+
+sem_post (&m)};
+
+Ficure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 660 : 840 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+
+(binary semaphore = mutex)
+
+sem_t m;
+// initialize semaphore to X; what should X k
+
+sem_init(&m, 0, X);
+
+sem_wait (&m);
+// critical section here
+
+sem_post (&m)};
+
+Fieure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 840 : 1140 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+
+(binary semaphore = mutex)
+
+sem_t m;
+// initialize semaphore to X; what should X k
+
+sem_init(&m, 0, X);
+
+sem_wait (&m);
+// critical section here
+
+sem_post (&m)};
+
+Ficure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 1140 : 1500 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+
+sem_t m;
+sem_init(&ém, 0, X); // initialize semaphore to X; what should X k
+
+sem_wait (&m);
+// critical section here
+
+sem_post (&m)};
+
+Figure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 1500 : 1560 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+- Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+
+sem_t m;
+sem_init(&ém, 0, X); // initialize semaphore to X; what should X k
+
+sem_wait (&m);
+// critical section here
+
+sem_post (&m)};
+
+Figure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 1560 : 1680 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+
+sem_t m;
+sem_init(&ém, 0, X); // initialize semaphore to X; what should X k
+
+sem_wait (&m);
+// critical section here
+
+sem_post (&m)};
+
+Figure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 1680 : 1800 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+
+sem_t m;
+sem_init(&ém, 0, X); // initialize semaphore to X; what should X k
+
+sem_wait (gm);
+// critical section here
+
+sem_post (&m)};
+
+Figure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 1800 : 2100 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+
+sem_t m;
+sem_init(&ém, 0, X); // initialize semaphore to X; what should X }
+
+sem_wait (gm);
+// critical section here
+
+sem_post (&m)};
+
+Figure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 2100 : 2160 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+
+sem_t m;
+sem_init(&ém, 0, X); // initialize semaphore to X; what should X k
+
+sem_wait (gm);
+// critical section here
+
+sem_post (&m)};
+
+Figure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 2160 : 2220 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+
+—_
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+
+sem_t m;
+sem_init(&ém, 0, X); // initialize semaphore to X; what should X k
+
+sem_wait (gm);
+// critical section here
+
+sem_post (&m)};
+
+Figure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 2220 : 2520 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+
+sem_t m;
+sem_init(&ém, 0, X); // initialize semaphore to X; what should X k
+
+sem_wait (gm);
+// critical section here
+
+sem_post (&m)};
+
+Figure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 2520 : 2580 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+
+sem_t m;
+sem_init(&ém, 0, Xy; // initialize semaphore to X; what should X k
+
+sem_wait (gm);
+// critical section here
+
+sem_post (&m)};
+
+Figure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 2580 : 2640 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+
+sem_t m;
+sem_init(&ém, 0,-X); // initialize semaphore to X; what should X }
+
+sem_wait (gm);
+// critical section here
+
+sem_post (&m)};
+
+Figure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 2640 : 2700 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+\
+
+sem_t mj :
+sem_init(&m, 0, @: // initialize semaphore to X; what should xX 1
+
+sem_wait (gm);
+// critical section here
+
+sem_post (&m)};
+
+Figure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 2700 : 2760 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+
+sem_t my; \
+sem_init(&m, 0, @: // initialize semaphore to X; what should xX 1
+
+sem_wait (gm);
+// critical section here
+
+sem_post (&m);
+
+Figure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 2760 : 2820 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+\
+
+sem_t mj
+sem_init(&m, 0, @: // initialize semaphore to X; what should xX
+
+sem_wait (sm);
+// exitical section here
+
+sem_post (&m)};
+
+Figure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 2820 : 2880 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+\
+
+sem_t mj
+sem_init(&m, 0, @: // initialize semaphore to X; what should xX
+
+sem_wait (gm);
+ff oxi section here
+
+sem_post (&m)};
+
+Ficure 31.3: A Binary Semaphore (That Is, A Lock)
+
+ 
+
+
+
+###################################### Frame 2880 : 3060 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+\
+
+sem_t mj
+sem_init(&m, 0, @: // initialize semaphore to X; what should xX
+
+sem_wait (gm);
+// critical section here
+
+sem_post (&m)};
+
+Fieure 31.3: A Binary Semaphore (That Is, A Leck)
+
+
+
+###################################### Frame 3060 : 3120 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+\
+
+sem_t mj
+sem_init(&m, 0, @: // initialize semaphore to X; what should x
+
+sem_wait (gm);
+ff oxi section here
+
+sem_post (&m)};
+
+Ficure 31.3: A Binary Semaphore (That Is, A Lock)
+
+ 
+
+
+
+###################################### Frame 3120 : 3180 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+\
+
+sem_t mj
+sem_init(&m, 0, @: // initialize semaphore to X; what should xX
+
+sem_wait (gm);
+ff oxi section here
+
+sem_post (&m)};
+
+Ficure 31.3: A Binary Semaphore (That Is, A Leck)
+
+ 
+
+
+
+###################################### Frame 3180 : 3240 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+\
+
+sem_t mj
+sem_init(&m, 0, @: // initialize semaphore to X; what should x
+
+sem_wait (gm);
+ff oxi section here
+
+sem_post (&m)};
+
+Ficure 31.3: A Binary Semaphore (That Is, A Lock)
+
+ 
+
+
+
+###################################### Frame 3240 : 3300 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+\
+
+sem_t mj
+sem_init(&m, 0, @®: // initialize semaphore to X; what should xX t
+
+sem_wait (gm)
+ff oxi section here
+
+sem_post (&m);
+
+Fieure 31.3: A Binary Semaphore (That Is, A Leck)
+
+ 
+
+
+
+###################################### Frame 3300 : 3360 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+\
+
+sem_t mj
+sem_init(&m, 0, @: // initialize semaphore to X; what should xX t
+
+sem_wait (gm); -
+ff oxi section here
+
+sem_post (&m);
+
+Fieure 31.3: A Binary Semaphore (That Is, A Leck)
+
+ 
+
+
+
+###################################### Frame 3360 : 3540 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+\
+
+sem_t mj
+sem_init(&m, 0, @: // initialize semaphore to X; what should xX
+
+sem_wait (gm);
+ff oxi section here
+
+sem_post (&m);
+
+Fieure 31.3: A Binary Semaphore (That Is, A Leck)
+
+ 
+
+
+
+###################################### Frame 3540 : 3660 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+\
+
+sem_t mj
+sem_init(&m, 4, @: // initialize semaphore to X; what should xX
+
+sem_wait (gm);
+ff oxi section here
+
+sem_post (&m);
+
+Ficure 31.3: A Binary Semaphore (That Is, A Leck)
+
+ 
+
+
+
+###################################### Frame 3660 : 3720 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+\
+
+sem_t mj
+sem_init(&m, 0, @: // initialize semaphore to X; what should x
+
+sem_wait (&m) Af
+ff oxi section here
+
+sem_post (&m);
+
+Ficure 31.3: A Binary Semaphore (That Is, A Lock)
+
+ 
+
+
+
+###################################### Frame 3720 : 3780 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+\
+
+sem_t mj
+sem_init (sm, 0, @: // initialize semaphore to X; what should x
+
+£
+
+sem_wait (gm);
+// critical section here
+
+sem_post (&m)};
+
+Ficure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 3780 : 3840 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+\
+
+sem_t mj
+
+sem_init (sm, 0, @: // initialize semaphore to X; what should x
+sem wait (amy; {(—o-
+
+// critical section here
+
+sem_post (&m)};
+
+Ficure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 3840 : 4020 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+\
+
+sem_t mj
+
+sem_init (sm, 0, @: // initialize semaphore to X; what should x
+som wait (em 7 {({—o-
+
+// critical section here
+
+sem_post (&m)};
+
+Fieure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 4020 : 4140 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+\
+
+sem_t mj
+
+sem_init (sm, 0, @: // initialize semaphore to X; what should x
+som wait (em 7 {({—o-
+
+// critical section here
+
+sem_post (&m)};
+
+Ficure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 4140 : 4200 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+\
+
+sem_t mj
+
+sem_init (sm, 0, @: // initialize semaphore to X; what should X b
+som wait (em 7 {({—o-
+
+// critical section here
+
+sem_post (&m);
+
+Ficure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 4200 : 4260 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+\
+
+sem_t mj
+
+sem_init (sm, 0, @: // initialize semaphore to X; what should x
+som wait (em 7 {({—o-
+
+// critical section here
+
+sem_post (&m)};
+
+Figure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 4260 : 4320 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+\
+
+sem_t mj
+
+sem_init (sm, 0, @: // initialize semaphore to X; what should X b
+som_wait (ems [—9 -|
+
+// critical section here
+
+sem_post (&m)};
+
+Figure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 4320 : 4380 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+\
+
+sem_t mj
+
+sem_init (sm, 0, @: // initialize semaphore to X; what should x
+som wait (em 7 [— 9 —|
+
+// critical section here
+
+sem_post (&m)};
+
+Ficure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 4380 : 5280 ###########################################
+
+
+What is a semaphore?
+
+Synchronization primitive like condition variables
+Semaphore is a variable with an underlying counter
+
+Two functions on a semaphore variable
+
+— Up/post increments the counter
+— Down/wait decrements the counter and blocks the calling
+
+thread if the resulting value is negative
+A semaphore with init value 1 acts as a simple lock
+(binary semaphore = mutex)
+\
+
+sem_t mj
+
+sem_init (sm, 0, @: // initialize semaphore to X; what should x
+som wait tom [—o- |
+
+// critical section here
+
+sem_post (&m)};
+
+Ficure 31.3: A Binary Semaphore (That Is, A Lock)
+
+
+
+###################################### Frame 5280 : 5400 ###########################################
+
+
+Semaphores for ordering
+Can be used to set order of execution between
+threads like CV
+Example: parent waiting for child (init = 0)
+
+1 semt 5;
+
+2
+3. void »
+
+4 child(void sarg) [
+
+5 printf ("child\n");
+
+6 sem_post (&s); // signal here: child is done
+7 return NULL;
+
+8 }
+
+9
+
+wo oint
+
+i} main(int arge, char «argv[]) {
+
+2 sem_init (és, 0, X); // what should X be?
+
+13 printf ("parent: begin\n");
+
+Ww pthread_t c;
+
+6 Pthread_create(&c, NULL, child, NULL);
+
+6 sem_wait (&s); // wait here for child
+
+Vv print£("parent: end\n");
+
+
+
+###################################### Frame 5400 : 5460 ###########################################
+
+
+Semaphores for ordering
+
+Can be used to set order of execution between
+threads like CV
+
+Example: parent waiting for child (init = 0)
+
+1
+
+lo
+u
+
+12
+13
+Ww
+15
+16
+Ww
+
+sem_t 3;
+
+void »
+child(void +arg) {
+printf ("child\n");
+sem_post (gs); // signal here: child is done
+return NULL;
+
+}
+
+int
+main(int arge, char sargv[]} {
+sem_init (&s, 0, X); // what should X be?
+printf("parent: begin\n");
+pthread_t cj
+Pthread_create(&c, NULL, child, NULL);
+sem_wait (&s); // wait here for child
+printé("parent: end\n");
+
+
+
+###################################### Frame 5460 : 5580 ###########################################
+
+
+Semaphores for ordering
+Can be used to set order of execution between
+threads like CV
+Example: parent waiting for child (init = 0)
+
+1 sem_t 3;
+
+2
+3 void +
+
+4 child(void +arg) {
+
+5 printf ("child\n");
+
+6 sem_post (&s); // signal here: child is done
+7 return NULL;
+
+8 }
+
+9
+
+wo int
+
+Ws main(int arge, char «argv(]) {
+
+2 sem_init(&s, 0, X); // what should X be?
+1b printf ("parent: begin\n");
+
+Ww pthread_t c}
+
+5 Pthread_create(&c, NULL, child, NULL);
+
+16 sem_wait (&s}; // wait here for child
+
+Vv print£("parent: end\n");
+
+
+
+###################################### Frame 5580 : 5640 ###########################################
+
+
+Semaphores for ordering
+Can be used to set order of execution between
+threads like CV
+Example: parent waiting for child (init = 0)
+
+1 sem_t 3;
+
+2
+3 void +
+
+4 child(void +arg) {
+
+5 printf ("child\n");
+
+6 sem_post (gs); // signal here: child is done
+7 return NULL;
+
+8 }
+
+9
+
+wo int
+
+Ws main(int arge, char «argv(]) {
+
+2 sem_init(&s, 0, X); // what should X be?
+1b printf ("parent: begin\n");
+
+Ww pthread_t c} .
+
+5 Pthread_create(&c, NULL, child, NULL);
+
+16 sem_wait (&s}; // wait here for child
+
+Vv print£("parent: end\n");
+
+
+
+###################################### Frame 5640 : 5700 ###########################################
+
+
+Semaphores for ordering
+
+Can be used to set order of execution between
+threads like CV
+
+Example: parent waiting for child (init = 0)
+
+1
+
+10
+n
+2
+13
+u
+5
+16
+wv
+
+sem_t 3;
+
+void «
+child(void +arg) {
+printf ("child\n"};
+sem_post (és); // signal here: child is done
+return NULL;
+}
+
+int
+main(int arge, char *argv{]} {
+sem_init (&s, 0, X); // what should X be?
+printf ("parent: begin\n");
+pthread_t c;
+Pthread create (sc, NULL, child, NULL);
+sem_wait (&s); // wait here for child
+printé("parent: end\n");
+
+
+
+###################################### Frame 5700 : 5760 ###########################################
+
+
+Semaphores for ordering
+
+Can be used to set order of execution between
+threads like CV
+
+Example: parent waiting for child (init = 0)
+
+1
+
+10
+n
+2
+13
+u
+5
+16
+wv
+
+sem_t 3;
+
+void «
+child(void +arg) {
+printf ("child\n"};
+sem_post (és); // signal here: child is done
+return NULL;
+}
+
+int
+main(int arge, char *argv{]} {
+sem_init (&s, 0, X); // what should X be?
+printf ("parent: begin\n");
+pthread_t c; .
+Pthread create(&c, NULL, child, NULL);
+sem_wait (&s}; // wait here for child
+printé("parent: end\n");
+
+
+
+###################################### Frame 5760 : 5820 ###########################################
+
+
+Semaphores for ordering
+
+Can be used to set order of execution between
+threads like CV
+
+Example: parent waiting for child (init = 0)
+
+1
+
+10
+n
+2
+13
+4“
+15
+16
+wv
+
+sem_t 3;
+
+void «
+
+child(void +arg) {
+print£ ("child\n");
+sem_post (&s); // signal here:
+return NULL;
+
+  
+  
+ 
+ 
+
+hild is done
+
+}
+
+int
+
+main(int arge, char *argv(]) {
+sem_init(&s, 0, X); // what should X be?
+printf ("parent: begin\n");
+pthread_t c;
+Pthread create(&c, NULL, child, NULL);
+sem_wait (&s); 7/ wait here for child
+printf ("parent: end\n");
+
+
+
+###################################### Frame 5820 : 5880 ###########################################
+
+
+Semaphores for ordering
+
+Can be used to set order of execution between
+threads like CV
+
+Example: parent waiting for child (init = 0)
+
+1
+
+10
+n
+2
+13
+4“
+15
+16
+wv
+
+sem_t 3;
+
+void «
+
+child(void +arg) {
+print£ ("child\n");
+sem_post (&s); // signal here:
+return NULL;
+
+  
+  
+ 
+ 
+
+hild is done
+
+}
+
+int
+
+main(int arge, char *argv(]) {
+sem_init(&s, 0, X); // what shoufid X be?
+printf ("parent: begin\n");
+pthread_t c;
+Pthread create(&c, NULL, child, NULL);
+gem_wait ({s); 7/ wait here for child
+printf ("parent: end\n");
+
+
+
+###################################### Frame 5880 : 5940 ###########################################
+
+
+Semaphores for ordering
+
+Can be used to set order of execution between
+threads like CV
+
+Example: parent waiting for child (init = 0)
+
+1
+
+10
+n
+2
+13
+4“
+15
+16
+wv
+
+sem_t 3;
+
+void «
+
+child(void +arg) {
+print£ ("child\n");
+sem_post (&s); // signal here:
+return NULL;
+
+  
+  
+ 
+ 
+
+hild is done
+
+}
+
+int
+main(int arge, char *argv{]} {
+sem_init(&s, 0, X); // what shoufid X be?
+printf ("parent: begin\n");
+pthread_t c;
+Pthread create (ic, NULL, child, NULL);
+gem wait(&s); /7/ wait here for child
+
+intf (parent: end\n");
+
+  
+
+
+
+###################################### Frame 5940 : 6000 ###########################################
+
+
+Semaphores for ordering
+
+Can be used to set order of execution between
+threads like CV
+
+Example: parent waiting for child (init = 0)
+
+1
+
+10
+n
+2
+13
+4“
+5
+16
+wv
+
+sem_t 3;
+
+void «
+
+child(void +arg) {
+printf ("child\n");
+sem_post (&s); // signal here:
+return NULL;
+
+  
+  
+ 
+ 
+
+hild is done
+
+}
+
+aint
+
+main(int arge, char +argv(]} {
+sem_init (as, 0, X); // what shoyfd X be?
+printf ("parent: begin\n");
+pthread_t c;
+Pthread create(&c, NULL, child, NULL);
+gem_wait (as); 7/ wait here for child
+printi("parent: end\n");
+
+ 
+
+
+
+###################################### Frame 6000 : 6060 ###########################################
+
+
+Semaphores for ordering
+
+Can be used to set order of execution between
+threads like CV
+
+Example: parent waiting for child (init = 0)
+
+1
+
+10
+n
+2
+13
+4“
+5
+16
+wv
+
+sem_t 3;
+
+void «
+
+child(void +arg) {
+printf ("child\n");
+sem_post (és); // signal here:
+“Feturn NULL;
+
+  
+  
+ 
+ 
+
+hild is done
+
+}
+
+aint
+
+main(int arge, char +argv(]} {
+sem_init (as, 0, X); // what shoyfd X be?
+printf ("parent: begin\n");
+pthread_t c;
+Pthread create(&c, NULL, child, NULL);
+gem_wait (as); 7/ wait here for child
+printi(™parent: end\n");
+
+ 
+
+
+
+###################################### Frame 6060 : 6120 ###########################################
+
+
+Semaphores for ordering
+
+Can be used to set order of execution between
+threads like CV
+
+Example: parent waiting for child (init = 0)
+
+1
+
+10
+n
+2
+13
+4“
+5
+16
+wv
+
+sem_t 3;
+
+void +
+
+child(void arg) {
+printf ("child\n"};
+sem_post (gs); // signal here:
+‘petorn NULL;
+
+  
+  
+ 
+ 
+
+hild is done
+
+}
+
+aint
+
+main(int arge, char +argv(]} {
+sem_init (as, 0, X); // what shoyfd X be?
+printf ("parent: begin\n");
+pthread_t c;
+Pthread create(&c, NULL, child, NULL);
+gem_wait (as); 7/ wait here for child
+printi(™parent: end\n");
+
+ 
+
+
+
+###################################### Frame 6120 : 6180 ###########################################
+
+
+Semaphores for ordering
+
+Can be used to set order of execution between
+threads like CV
+
+Example: parent waiting for child (init = 0)
+
+1
+
+10
+n
+2
+13
+4“
+5
+16
+wv
+
+sem_t 3;
+
+void +
+
+child(void arg) {
+printf ("child\n"};
+sem_post (&s); // signal here:
+“perurn NULL;
+
+  
+  
+ 
+ 
+
+hild is done
+
+}
+
+aint
+
+main(int arge, char +argv(]} {
+sem_init (gs, 0, X); // what shoyfid X be?
+printf ("parent: begin\n");
+pthread_t c;
+Pthread create(&c, NULL, child, NULL);
+gem_wait (as); 7/ wait here for child
+printi("parent: end\n");
+
+ 
+
+
+
+###################################### Frame 6180 : 6240 ###########################################
+
+
+Semaphores for ordering
+
+Can be used to set order of execution between
+threads like CV
+
+Example: parent waiting for child (init = 0)
+
+1
+
+10
+n
+2
+13
+4“
+5
+16
+wv
+
+sem_t 3;
+
+void +
+
+child(void arg) {
+printf ("child\n"};
+sem_post (&s); // signal here:
+“perurn NULL;
+
+  
+  
+ 
+ 
+
+hild is done
+
+}
+
+aint
+
+main(int arge, char gargv(]} {
+seminit (as, 0, (%); // what shoylid x be?
+printf ("parent: begin\n");
+pthread_t c;
+Pthread create(&c, NULL, child, NULL);
+gem_wait (as); 7/ wait here for child
+printi("parent: end\n");
+
+ 
+
+
+
+###################################### Frame 6240 : 6300 ###########################################
+
+
+Semaphores for ordering
+
+Can be used to set order of execution between
+threads like CV
+
+Example: parent waiting for child (init = 0)
+
+1
+
+10
+n
+2
+13
+4“
+5
+16
+
+sem_t 3;
+
+void +
+
+child(void arg) {
+printf ("child\n"};
+sem_post (6s); // signal here:
+“Perurn NULL;
+
+  
+  
+ 
+ 
+
+hild is done
+
+}
+
+aint
+
+main(int arge, char #rqv[]) {
+sem_init (as, 0, (%); // what shoyfid xX be?
+printf ("parent: begin\n");
+pthread_t c;
+Pthread create(&c, NULL, child, NULL);
+gem_wait (&s); 7/ wait here for child
+print®( parent: end\n") ;
+
+
+
+###################################### Frame 6300 : 6360 ###########################################
+
+
+Semaphores for ordering
+
+Can be used to set order of execution between
+threads like CV
+
+Example: parent waiting for child (init = 0)
+
+1
+
+10
+n
+2
+13
+4“
+5
+16
+
+sem_t 3;
+
+void +
+
+child(void arg) {
+printf ("child\n"};
+sem_post (6s); // signal here:
+“Perurn NULL;
+
+  
+  
+ 
+ 
+
+hild is done
+
+}
+0
+
+aint
+main(int arge, char ham {
+
+sem_init (as, 0, (x); // what shoud X be?
+printf ("parent: begin\n");
+pthread_t c;
+
+Pthread create(&c, NULL, child, NULL);
+gem wait(ss); // wait here for child
+printé("parent: end\n");
+
+
+
+###################################### Frame 6360 : 6420 ###########################################
+
+
+Semaphores for ordering
+
+Can be used to set order of execution between
+threads like CV
+
+Example: parent waiting for child (init = 0)
+
+1
+
+10
+n
+2
+13
+4“
+5
+16
+
+sem_t 3;
+
+void +
+
+child(void arg) {
+printf ("child\n"};
+sem_post (6s); // signal here:
+“Perurn NULL;
+
+  
+  
+ 
+ 
+
+hild is done
+
+}
+oO
+main(int arge, char w4rgv[]} {
+sem_init (as, 0, (x); // what shoud X be?
+printf ("parent: begin\n");
+pthread_t c;
+Pthread create(&c, NULL, child, NULL);
+gem wait(ss); // wait here for child
+printé("parent: end\n");
+
+
+
+###################################### Frame 6420 : 6480 ###########################################
+
+
+Semaphores for ordering
+
+Can be used to set order of execution between
+threads like CV
+
+Example: parent waiting for child (init = 0)
+
+1
+
+10
+n
+2
+13
+4“
+5
+16
+wv
+
+sem_t 3;
+
+void «
+
+child(void +arg) {
+printf ("child\n"};
+sem_post (&s); // signal here:
+return NULL;
+
+  
+  
+ 
+ 
+
+}
+oO
+main(int arge, char w4rgv(]) {
+sem_init (as, 0, (KX); // what shoufid X be?
+printf ("parent: begin\n");
+pthread_t c;
+Pthread create (&c, NULL, child, NULL);
+gem wait(ss); // wait here for child
+
+E("parent: end\n");
+
+ 
+
+
+
+###################################### Frame 6480 : 6600 ###########################################
+
+
+Semaphores for ordering
+
+Can be used to set order of execution between
+threads like CV
+
+Example: parent waiting for child (init = 0)
+
+1
+
+10
+n
+2
+13
+4“
+5
+16
+wv
+
+sem_t 3;
+
+void +
+
+child(void xarg) {
+printf ("child\n"};
+sem_post (&s); // signal here:
+“perurn NULL;
+
+  
+  
+ 
+ 
+
+hild is done
+
+}
+
+oO
+int Lo
+main(int arge, char #rqv(]) {
+
+seminit (as, 0, (&); // what shoyid xX be?
+printf ("parent: begin\n");
+pthread_t c;
+
+Pthread create(&c, NULL, child, NULL);
+gem_wait (Gs); 7/ wait here for child
+printi (parent: end\n"};
+
+ 
+
+
+
+###################################### Frame 6600 : 6660 ###########################################
+
+
+Semaphores for ordering
+
+Can be used to set order of execution between
+threads like CV
+
+Example: parent waiting for child (init = 0)
+
+1 semt 3;
+
+void +
+
+child(void arg) {
+printf ("child\n"};
+sem_post (&s); // signal here:
+“perurn NULL;
+
+  
+  
+ 
+ 
+
+hild is done pe boo
+
+}
+oO
+
+9
+Ww aint Le
+Mo main(int arge, char w4rgqv[]) {
+
+2 sem_init (as, 0, (KX); // what shoud X be?
+1b printf ("parent: Begin\n");
+
+Ww pthread_t cj
+
+5 Pthread create(&c, NULL, child, NULL);
+16 gem_wait(&s); // wait here for child
+
+gem wait (Ks)
+Vv Pp E("parent: end\n");
+
+ 
+
+
+
+###################################### Frame 6660 : 6720 ###########################################
+
+
+Semaphores for ordering
+
+Can be used to set order of execution between
+threads like CV
+
+Example: parent waiting for child (init = 0)
+
+1 semt 3;
+
+void +
+
+child(void arg) {
+printf ("child\n"};
+sem_post (&s); // signal here:
+“perurn NULL;
+
+  
+  
+ 
+ 
+
+hild is done p= lov
+
+}
+oO
+
+9
+Ww aint Le
+Mo main(int arge, char w4rgqv[]) {
+
+2 sem_init (as, 0, (KX); // what shoud X be?
+1b printf ("parent: Begin\n");
+
+Ww pthread_t cj
+
+5 Pthread create(&c, NULL, child, NULL);
+16 gem_wait(&s); // wait here for child
+
+gem wait (Ks)
+Vv Pp E("parent: end\n");
+
+ 
+
+
+
+###################################### Frame 6720 : 6780 ###########################################
+
+
+Semaphores for ordering
+
+Can be used to set order of execution between
+threads like CV
+
+Example: parent waiting for child (init = 0)
+
+1 sem_t 3;
+
+void «
+
+child(void arg) {
+printf ("child\n"};
+sem_post (&s); // signal here:
+eturn NULL;
+
+  
+  
+ 
+ 
+
+hild is done p= loo
+
+CoP
+
+}
+oO
+
+wo int Le
+cue main(int arge, char wergv[]) {
+
+2 sem_init (as, 0, (KX); // what shoufid X be?
+13 printf ("parent: begin\n");
+
+W pthread_t c;
+
+5 Pthread create(&c, NULL, child, NULL);
+16 gem_wait(&s); // wait here for child
+
+gem wait (Ks)
+Vv Pp E("parent: end\n");
+
+ 
+
+
+
+###################################### Frame 6780 : 6840 ###########################################
+
+
+Semaphores for ordering
+
+Can be used to set order of execution between
+threads like CV
+
+Example: parent waiting for child (init = 0)
+
+1 sem_t 3;
+
+void «
+
+child(void arg) {
+printf ("child\n"};
+sem_post (&s); // signal here:
+eturn NULL;
+
+  
+  
+ 
+ 
+
+hild is done p= loo
+
+C ys
+
+}
+oO
+
+wo int Le
+cue main(int arge, char wergv[]) {
+
+2 sem_init (as, 0, (KX); // what shoufid X be?
+13 printf ("parent: begin\n");
+
+W pthread_t c;
+
+5 Pthread create(&c, NULL, child, NULL);
+16 gem_wait(&s); // wait here for child
+
+gem wait (Ks)
+Vv Pp E("parent: end\n");
+
+ 
+
+
+
+###################################### Frame 6840 : 6900 ###########################################
+
+
+Semaphores for ordering
+
+Can be used to set order of execution between
+threads like CV
+
+Example: parent waiting for child (init = 0)
+
+1 sem_t 3;
+
+void «
+
+child(void arg) {
+printf ("child\n"};
+sem_post (&s); // signal here:
+eturn NULL;
+
+  
+  
+ 
+ 
+
+o
+
+hild is done p= loo
+
+C ys
+A
+
+|
+
+}
+oO
+
+wo int Le
+cue main(int arge, char wergv[]) {
+
+2 sem_init (as, 0, (KX); // what shoufid X be?
+13 printf ("parent: begin\n");
+
+W pthread_t c;
+
+5 Pthread create(&c, NULL, child, NULL);
+16 gem_wait(&s); // wait here for child
+
+gem wait (Ks)
+Vv Pp E("parent: end\n");
+
+ 
+
+
+
+###################################### Frame 6900 : 6960 ###########################################
+
+
+Semaphores for ordering
+
+Can be used to set order of execution between
+threads like CV
+
+Example: parent waiting for child (init = 0)
+
+void «
+
+child(void arg) {
+printf ("child\n"};
+sem_post (&s); // signal here:
+eturn NULL;
+
+  
+  
+ 
+ 
+
+hild is done p= lod
+
+}
+oO
+
+qo int Le
+cue main(int arge, char wergv[]) {
+
+2 sem_init(as, 0, (KX); // what shoufid X be?
+1b printf ("parent: Begin\n");
+
+Ww pthread_t c;
+
+15 Pthread create(&c, NULL, child, NULL);
+16 gem_wait (ss); /7/ wait here for child
+
+E("parent: end\n");
+
+wv
+
+ 
+
+
+
+###################################### Frame 6960 : 7020 ###########################################
+
+
+Semaphores for ordering
+Can be used to set order of execution between
+
+threads like CV
+Example: parent waiting for child (init = 0)
+
+1 semt 3;
+
+  
+  
+ 
+ 
+
+2
+
+3 void +
+
+4 child(void +arg) { oO
+
+5 printf ("child\n"};
+
+6 sem_post (és); // signal here: \Child is done
+
+7 eturn NULL; a P—» lok
+8 }
+
+9 oO C os
+wo ant
+
+Mo main(int arge, char Len { 4
+2 sem_init (gs, 0, (X); // what shoyld xX be?
+
+B printf ("parent: begin\n");
+
+Ww pthread_t c; p
+
+5 Pthread create (&c, NULL, child, NULL);
+
+/ wait here for child
+: end\n");
+
+16
+wv
+
+ 
+
+
+
+###################################### Frame 7020 : 7080 ###########################################
+
+
+Semaphores for ordering
+Can be used to set order of execution between
+
+threads like CV
+Example: parent waiting for child (init = 0)
+
+1 semt 3;
+
+  
+  
+ 
+ 
+
+2
+
+3 void +
+
+4 child(void +arg) { oO
+
+5 printf ("child\n"};
+
+6 sem_post (és); // signal here: \child is done
+
+7 eturn NULL; a P—» lok
+8 } .
+9 oO C os
+
+wo ant
+
+Mo main(int arge, char Len { 4
+
+2 sem_init (as, 0, (x); // what shoyid xX be?
+
+B printf ("parent: begin\n");
+
+W pthread_t oc} P
+
+5 Pthread create (sc, NULL, child, NULL);
+
+/ wait here for child
+: end\n");
+
+16
+wv
+
+ 
+
+
+
+###################################### Frame 7080 : 7200 ###########################################
+
+
+Semaphores for ordering
+Can be used to set order of execution between
+
+threads like CV
+Example: parent waiting for child (init = 0)
+
+1 semt 3;
+
+  
+  
+ 
+ 
+
+2
+
+3 void +
+
+4 child(void +arg) { oO
+
+5 printf ("child\n"};
+
+6 sem_post (és); // signal here: \child is done
+
+7 eturn NULL; a P—» lok
+8} .
+9 oO C ys
+wo ant
+
+M0 main(int arge, char Len { 4
+
+2 sem_init (as, 0, (x); // what shoyid xX be?
+
+B printf ("parent: begin\n");
+
+u pthread_t oc} p
+
+5 Pthread create (sc, NULL, child, NULL);
+
+(&s); /7/ wait here for child
+rent: end\n");
+
+16
+wv
+
+ 
+ 
+
+
+
+###################################### Frame 7200 : 7320 ###########################################
+
+
+Semaphores for ordering
+Can be used to set order of execution between
+
+threads like CV
+Example: parent waiting for child (init = 0)
+
+1 semt 3;
+
+  
+  
+ 
+ 
+
+2
+
+3 void +
+
+4 child(void +arg) { oO
+
+5 printf ("child\n"};
+
+6 sem_post (és); // signal here: \Child is done
+
+7 eturn NULL; a P—» lok
+8 }
+
+9 oO C ys
+wo ant
+
+M0 main(int arge, char Len { 4
+2 sem_init (as, 0, (x); // what shoylid xX be?
+
+B printf ("parent: begin\n");
+
+W pthread_t oc Pp
+
+5 Pthread create (&c, NULL, child, NULL);
+
+(&s); /7/ wait here for child
+rent: end\n");
+
+16
+WV
+
+ 
+ 
+
+
+
+###################################### Frame 7320 : 7380 ###########################################
+
+
+Semaphores for ordering
+Can be used to set order of execution between
+
+threads like CV
+Example: parent waiting for child (init = 0)
+
+1 semt 3;
+
+  
+  
+ 
+ 
+
+2
+
+3 void +
+
+4 child(void +arg) { oO
+
+5 printf ("child\n"};
+
+6 sem_post (és); // signal here: \Child is done
+
+7 eturn NULL; a P—» lok
+8 }
+
+9 oO C ys
+wo ant
+
+M0 main(int arge, char Lan { 4
+2 sem_init (as, 0, (x); // what shoylid xX be?
+
+B printf ("parent: begin\n");
+
+W pthread_t oc Pp
+
+5 Pthread create (&c, NULL, child, , NULL);
+
+(&s); /7/ wait here for child
+rent: end\n");
+
+16
+WV
+
+ 
+ 
+
+
+
+###################################### Frame 7380 : 7620 ###########################################
+
+
+Semaphores for ordering
+Can be used to set order of execution between
+
+threads like CV
+Example: parent waiting for child (init = 0)
+
+1 semt 3;
+
+  
+  
+ 
+ 
+
+2
+
+3 void +
+
+4 child(void +arg) { oO
+
+5 printf ("child\n"};
+
+6 sem_post (és); // signal here: \Child is done
+
+7 eturn NULL; a P—» lok
+8 }
+
+9 Oo C os
+wo ant
+
+M0 main(int arge, char Len { 4
+2 sem_init (gs, 0, (%); // what shoyld X be?
+
+B printf ("parent: begin\n");
+
+W pthread_t oc} Pp
+
+5 Pthread create (&c, NULL, child, NULL);
+
+/ wait here for child
+: end\n");
+
+16
+wv
+
+ 
+
+
+
+###################################### Frame 7620 : 7680 ###########################################
+
+
+Semaphores for ordering
+Can be used to set order of execution between
+
+threads like CV
+Example: parent waiting for child (init = 0)
+
+1 semt 3;
+
+  
+  
+ 
+ 
+
+2
+
+3 void +
+
+4 child(void +arg) { oO
+
+5 printf ("child\n"};
+
+6 sem_post (és); // signal here: \Child is done
+
+7 eturn NULL; a P—» lok
+8 }
+
+9 Oo C os
+wo ant
+
+M0 main(int arge, char Len { 4
+2 sem_init (gs, 0, (%); // what shoyfld X be?
+
+B printf ("parent: begin\n");
+
+W pthread_t oc} Pp
+
+5 Pthread create (&c, NULL, child, NULL);
+
+/ wait here for child
+: end\n");
+
+16
+wv
+
+ 
+
+
+
+###################################### Frame 7680 : 7740 ###########################################
+
+
+Semaphores for ordering
+Can be used to set order of execution between
+
+threads like CV
+Example: parent waiting for child (init = 0)
+
+1 semt 3;
+
+  
+  
+ 
+ 
+
+2
+
+3 void «
+
+4 child(void +arg) { oO
+
+5 printé("child\n"};
+
+6 sem_post (&s); // signal here: \ehild is done
+
+7 eturn NULL; a P—» lok
+8 }
+
+9 Oo C os
+Ww aint
+
+Mo main(int arge, char Lan { 4
+2 sem_init (as, mex 7/ what should X be?
+
+13 printf ("parent: begin\n");
+
+W pthread_t oc} Pp
+
+5 Pthread create (sc, NULL, child, NULL);
+
+/ wait here for child
+: end\n");
+
+16
+wv
+
+ 
+
+
+
+###################################### Frame 7740 : 7800 ###########################################
+
+
+Semaphores for ordering
+Can be used to set order of execution between
+
+threads like CV
+Example: parent waiting for child (init = 0)
+
+1 semt 3;
+
+  
+  
+ 
+ 
+
+2
+
+3 void «
+
+4 child(void +arg) { oO
+
+5 printé("child\n"};
+
+6 sem_post (&s); // signal here: \ehild is done
+
+7 eturn NULL; a P—» lok
+8 }
+
+9 Oo C os
+Ww aint
+
+Mo main(int arge, char Lan { 4
+2 sem_init (as, mex 7/ what should X be?
+
+13 printf ("parent: begin\n");
+
+W pthread_t oc} Pp
+
+5 Pthread create (sc, NULL, child, NULL);
+
+(&s); 7/ wait here for child
+rent: end\n");
+
+16
+wv
+
+ 
+ 
+
+
+
+###################################### Frame 7800 : 7860 ###########################################
+
+
+Semaphores for ordering
+Can be used to set order of execution between
+
+threads like CV
+Example: parent waiting for child (init = 0)
+
+1 semt 3;
+
+  
+  
+ 
+ 
+
+2
+
+3 void «
+
+4 child(void +arg) { oO
+
+5 printé("child\n"};
+
+6 sem_post (&s); // signal here: \ehild is done
+
+7 eturn NULL; a P—» lok
+8 }
+
+9 Oo C os
+Ww aint
+
+Mo main(int arge, char Lan { 4
+2 sem_init (as, mer 7/ what should X be?
+
+13 printf ("parent: begin\n");
+
+W pthread_t oc} Pp
+
+5 Pthread create (sc, NULL, child, NULL);
+
+/ wait here for child
+: end\n");
+
+16
+wv
+
+ 
+
+
+
+###################################### Frame 7860 : 7920 ###########################################
+
+
+Semaphores for ordering
+Can be used to set order of execution between
+
+threads like CV
+Example: parent waiting for child (init = 0)
+
+1 semt 3;
+
+  
+  
+ 
+ 
+
+2
+
+3 void «
+
+4 child(void +arg) { oO
+
+5 printé("child\n"};
+
+6 sem_post (&s); // signal here: \ehild is done
+
+7 eturn NULL; a P—» lok
+8 }
+
+9 Oo C os
+Ww aint
+
+Mo main(int arge, char Len { 4
+2 sem_init (as, mer // what should X be?
+
+1b printé("parent: Begin\n");
+
+W pthread_t oc} Pp
+
+5 Pthread create(&c, NULL, child, NULL);
+
+(&s); /7/ wait here for child
+rent: end\n");
+
+16
+wv
+
+ 
+ 
+
+
+
+###################################### Frame 7920 : 8040 ###########################################
+
+
+Semaphores for ordering
+Can be used to set order of execution between
+
+threads like CV
+Example: parent waiting for child (init = 0)
+
+1 semt 3;
+
+  
+  
+ 
+ 
+
+2
+
+3 void «
+
+4 child(void +arg) { oO
+
+5 printé("child\n"};
+
+6 sem_post (&s); // signal here: \ehild is done
+
+7 eturn NULL; a P—» lok
+8 }
+
+9 Oo C os
+Ww aint
+
+Mo main(int arge, char Len { 4
+2 sem_init (as, mer // what should X be?
+
+1b printé("parent: Begin\n");
+
+W pthread_t oc} Pp
+
+5 Pthread create(&c, NULL, child, NULL);
+
+/ wait here for child
+: end\n");
+
+16
+wv
+
+ 
+
+
+
+###################################### Frame 8040 : 8160 ###########################################
+
+
+Semaphores for ordering
+Can be used to set order of execution between
+
+threads like CV
+Example: parent waiting for child (init = 0)
+
+1 semt 3;
+
+  
+  
+ 
+ 
+
+2
+
+3 void «
+
+4 child(void +arg) { oO
+
+5 printé("child\n"};
+
+6 sem_post (&s); // signal here: \ehild is done
+
+7 eturn NULL; a P—» lok
+8 }
+
+9 Oo C os
+Ww aint
+
+Mo main(int arge, char Len { 4
+2 sem_init (as, mer // what should X be?
+
+1b printé("parent: Begin\n");
+
+W pthread_t oc} Pp
+
+5 Pthread create(&c, NULL, child, NULL);
+
+(&s); /7/ wait here for child
+rent: end\n");
+
+16
+wv
+
+ 
+ 
+
+
+
+###################################### Frame 8160 : 8220 ###########################################
+
+
+Semaphores for ordering
+Can be used to set order of execution between
+
+threads like CV
+Example: parent waiting for child (init = 0)
+
+1 semt 3;
+
+  
+  
+ 
+ 
+
+2
+
+3 void «
+
+4 child(void +arg) { oO
+
+5 printé("child\n"};
+
+6 sem_post (&s); // signal here: \ehild is done
+
+7 eturn NULL; a P—» lok
+8 }
+
+9 Oo C os
+Ww aint
+
+Mo main(int arge, char Len { 4
+2 sem_init (as, mer // what should X be?
+
+1b printé("parent: Begin\n");
+
+W pthread_t oc} Pp
+
+5 Pthread create(&c, NULL, child, NULL);
+
+/ wait here for child
+: end\n");
+
+16
+wv
+
+ 
+
+
+
+###################################### Frame 8220 : 8280 ###########################################
+
+
+Semaphores for ordering
+Can be used to set order of execution between
+
+threads like CV
+Example: parent waiting for child (init = 0)
+
+1 semt 3;
+
+  
+  
+ 
+ 
+
+2
+
+3 void «
+
+4 child(void +arg) { oO
+
+5 printé("child\n"};
+
+6 sem_post (&s); // signal here: \ehild is done
+
+7 eturn NULL; a P—» lok
+8 }
+
+9 Oo C os
+Ww aint
+
+Mo main(int arge, char Len { 4
+2 sem_init (as, mer // what should X be?
+
+1b printé("parent: Begin\n");
+
+W pthread_t oc} Pp
+
+5 Pthread create(&c, NULL, child, NULL);
+
+(&s); /7/ wait here for child
+rent: end\n");
+
+16
+wv
+
+ 
+ 
+
+
+
+###################################### Frame 8280 : 8400 ###########################################
+
+
+Semaphores for ordering
+Can be used to set order of execution between
+
+threads like CV
+Example: parent waiting for child (init = 0)
+
+1 semt 3;
+
+  
+  
+ 
+ 
+
+2
+
+3 void «
+
+4 child(void +arg) { oO
+
+5 printé("child\n"};
+
+6 sem_post (&s); // signal here: \ehild is done
+
+7 eturn NULL; a P—» lok
+8 }
+
+9 Oo C os
+Ww aint
+
+Mo main(int arge, char Len { 4
+2 sem_init (as, mer // what should X be?
+
+1b printé("parent: Begin\n");
+
+W pthread_t oc} Pp
+
+5 Pthread create(&c, NULL, child, NULL);
+
+/ wait here for child
+: end\n");
+
+16
+wv
+
+ 
+
+
+
+###################################### Frame 8400 : 8520 ###########################################
+
+
+Example: Producer/Consumer (1)
+Need two semaphores for signaling
+
+— One to track empty slots, and make producer wait
+if no more empty slots
+
+— One to track full slots, and make consumer wait if
+no more full slots
+
+One semaphore to act as mutex for buffer
+
+. main(int arge, char *argv[]) {
+FI owas .
+sem_init(sempty, 0, MAX}; // MAX buffers are empty to begin with
+init(sfull, 0, 0); //... and 0 are full
+init (&mute , ld); ¢/ mutex=1 because it is a lock
+
+ 
+     
+
+
+
+###################################### Frame 8520 : 8640 ###########################################
+
+
+Example: Producer/Consumer (1)
+Need two semaphores for signaling
+
+— One to track empty slots, and make producer wait
+if no more empty slots
+
+— One to track full slots, and make consumer wait if
+no more full slots
+
+One semaphore to act as mutex for buffer
+
+main(int arge, char targv[]) {
+‘iow
+
+0, MAX); //
+0, 0); //... and 0 are full
+, 0, 1); // mutex=1 because it is a Lock
+
+ 
+
+MAX buffers are empty to begin with...
+
+
+
+###################################### Frame 8640 : 8760 ###########################################
+
+
+Example: Producer/Consumer (1)
+Need two semaphores for signaling
+
+— One to track empty slots, and make producer wait
+if no more empty slots
+
+— One to track full slots, and make consumer wait if
+no more full slots
+
+One semaphore to act as mutex for buffer
+
+- main(int argc, char *argv[]) f
+
+Th oes .
+
+sem_init(sempty, 0, MAX}; // MAX bufzers are empty to begin with
+sem_init (sfull, 0, 0); // ... and 0 are full
+
+sem init (amutex, 0, 1); // mutex=1 because it is a lock
+
+
+
+###################################### Frame 8760 : 8820 ###########################################
+
+
+Example: Producer/Consumer (1)
+Need two semaphores for signaling
+
+— One to track empty slots, and make producer wait
+if no more empty slots
+
+— One to track full slots, and make consumer wait if
+no more full slots
+
+One semaphore to act as mutex for buffer
+
+- main(int argc, char *argv[]) f
+‘fos.
+
+sem_init (sempty, 0, MAX); // MAX buffers are empty to begin with
+sem_init (Gfull, 0, 0); // ... and 0 are full
+sem init(smutex, 0, 1); // mutex=1 because it is a lock
+
+
+
+###################################### Frame 8820 : 8880 ###########################################
+
+
+Example: Producer/Consumer (1)
+Need two semaphores for signaling
+
+— One to track empty slots, and make producer wait
+if no more empty slots
+
+— One to track full slots, and make consumer wait if
+no more full slots
+
+One semaphore to act as mutex for buffer
+
+- main(int argc, char *argv[]) f
+‘fos.
+
+sem_init (sempty, 0, MAX}; // MAX buffers are empty to begin with
+sem_init (@full, 0, 0); // ... and 0 are full
+sem init (smutex, 0, 1}; // mutex=1 because it is a lock
+
+
+
+###################################### Frame 8880 : 9000 ###########################################
+
+
+Example: Producer/Consumer (1)
+Need two semaphores for signaling
+
+— One to track empty slots, and make producer wait
+if no more empty slots
+
+— One to track full slots, and make consumer wait if
+no more full slots
+
+One semaphore to act as mutex for buffer
+
+- main(int argc, char *argv[]) f
+‘fos.
+
+sem_init (sempty, 0, MAX); // MAX buffers are empty to begin with
+sem_init (Sfull, 0, O);> // ...
+sem_init (amutex, 0
+
+and 0 are full
+// mutex=1 because it
+
+, Li;
+
+is a lock
+
+
+
+###################################### Frame 9000 : 9120 ###########################################
+
+
+Example: Producer/Consumer (1)
+Need two semaphores for signaling
+
+— One to track empty slots, and make producer wait
+if no more empty slots
+
+— One to track full slots, and make consumer wait if
+no more full slots
+
+One semaphore to act as mutex for buffer
+
+- main(int argc, char *argv[]) f
+‘fos.
+
+sem_init (sempty, 0, MAX); // MAX buffers are empty to begin with
+sem_init (Sfull, 0, 0); // ... and 0 are full
+sem _init(amutex, 0, 1); // mutex=1 because it is a lock
+
+
+
+###################################### Frame 9120 : 9180 ###########################################
+
+
+Example: Producer/Consumer (1)
+Need two semaphores for signaling
+
+— One to track empty slots, and make producer wait
+if no more empty slots
+
+— One to track full slots, and make consumer wait if
+no more full slots
+
+One semaphore to act as mutex for buffer
+
+- main(int argc, char *argv[]) f
+‘fos.
+
+sem_init (sempty, 0, MAX); // MAX buffers are empty to begin with
+sem_init (Sfull, 0, 0); // ... and 0 are full
+sem init{(smutex, 0, 1); // mutex=1 because it
+
+is a Lock
+
+
+
+###################################### Frame 9180 : 9240 ###########################################
+
+
+Example: Producer/Consumer (1)
+Need two semaphores for signaling
+
+— One to track empty slots, and make producer wait
+if no more empty slots
+
+— One to track full slots, and make consumer wait if
+no more full slots
+
+One semaphore to act as mutex for buffer
+
+- main(int argc, char *argv[]) f
+‘fos.
+
+sem_init (sempty, 0, MAX); // MAX buffers are empty to begin with
+sem_init (Sfull, 0, 0); // ... and 0 are full
+sem init (amutex, 0, 1); // mutex=1 because it is a lock
+
+
+
+###################################### Frame 9240 : 9300 ###########################################
+
+
+Example: Producer/Consumer (1)
+Need two semaphores for signaling
+
+— One to track empty slots, and make producer wait
+if no more empty slots
+
+— One to track full slots, and make consumer wait if
+no more full slots
+
+One semaphore to act as mutex for buffer
+
+- main(int argc, char *argv[]) f
+‘fos.
+
+sem_init (sempty, 0, MAX); // MAX buffers are empty to begin with
+sem_init (Sfull, 0, 0); // ... and 0 are full
+sem init(smutex, 0, 1}; // mutex=1 because it is a lock
+
+
+
+###################################### Frame 9300 : 9360 ###########################################
+
+
+Example: Producer/Consumer (1)
+Need two semaphores for signaling
+
+— One to track empty slots, and make producer wait
+if no more empty slots
+
+— One to track full slots, and make consumer wait if
+no more full slots
+
+One semaphore to act as mutex for buffer
+
+- main(int argc, char *argv[]) f
+‘fos.
+
+sem_init (sempty, 0, MAX); // MAX buffers are empty to begin with
+sem_init (full, 0, 0); // ... and 0 are full
+sem init (amutex, 0, 1); // mutex=1 because it is a lock
+
+
+
+###################################### Frame 9360 : 9420 ###########################################
+
+
+Example: Producer/Consumer (1)
+Need two semaphores for signaling
+
+— One to track empty slots, and make producer wait
+if no more empty slots
+
+— One to track full slots, and make consumer wait if
+no more full slots
+
+One semaphore to act as mutex for buffer
+
+- main(int argc, char *argv[]) f
+‘fos.
+
+sem_init (sempty, 0, MAX); // MAX buffers are empty to begin with
+sem_init (full, 0, 0); // ... and 0 are full
+sem init (smutex, 0, 1}; // mutex=1 because it is a lock
+
+
+
+###################################### Frame 9420 : 9480 ###########################################
+
+
+Example: Producer/Consumer (1)
+Need two semaphores for signaling
+
+— One to track empty slots, and make producer wait
+if no more empty slots
+
+— One to track full slots, and make consumer wait if
+no more full slots
+
+One semaphore to act as mutex for buffer
+
+- main(int argc, char *argv[]) f
+‘fos.
+
+sem_init (sempty, 0, MAX); // MAX buffers are empty to begin with
+sem_init {Zful], 0, 0); // ... and 0 are full
+sem init (amutex, 0, 1); // mutex=1 because it is a lock
+
+
+
+###################################### Frame 9480 : 9540 ###########################################
+
+
+Example: Producer/Consumer (1)
+Need two semaphores for signaling
+
+— One to track empty slots, and make producer wait
+if no more empty slots
+
+— One to track full slots, and make consumer wait if
+no more full slots
+
+One semaphore to act as mutex for buffer
+
+- main(int argc, char *argv[]) f
+‘fos.
+
+sem_init (sempty, 0, MAX); // MAX buffers are empty to begin with
+sem_init {Zfu'], 0, 0); // ... and 0 are full
+sem _init(amutex, 0, 1); // mutex=1 because it is a lock
+
+
+
+###################################### Frame 9540 : 9600 ###########################################
+
+
+Example: Producer/Consumer (1)
+Need two semaphores for signaling
+
+— One to track empty slots, and make producer wait
+if no more empty slots
+
+— One to track full slots, and make consumer wait if
+no more full slots
+
+One semaphore to act as mutex for buffer
+
+- main(int argc, char *argv[]) f
+‘fos.
+
+sem_init (sempty, 0, MAX); // MAX buffers are empty to begin with
+sem_init {Sfu'], 0, 0); // ... and 0 are full
+sem _init(amutex, 0, 1); // mutex=1 because it is a lock
+
+
+
+###################################### Frame 9600 : 9720 ###########################################
+
+
+Example: Producer/Consumer (1)
+Need two semaphores for signaling
+
+— One to track empty slots, and make producer wait
+if no more empty slots
+
+— One to track full slots, and make consumer wait if
+no more full slots
+
+One semaphore to act as mutex for buffer
+
+- main(int argc, char *argv[]) f
+‘fos.
+
+sem_init (sempty, 0, MAX); // MAX buffers are empty to begin with
+sem_init {SfuiJ], 0, QO; // ... and 0 are full
+sem _init(amutex, 0, 1); // mutex=1 because it is a lock
+
+
+
+###################################### Frame 9720 : 9780 ###########################################
+
+
+Example: Producer/Consumer (1)
+Need two semaphores for signaling
+
+— One to track empty slots, and make producer wait
+if no more empty slots
+
+— One to track full slots, and make consumer wait if
+no more full slots
+
+One semaphore to act as mutex for buffer
+
+- main(int argc, char *argv[]) f
+‘fos.
+
+sem_init (sempty, 0, MAX); // MAX buffers are empty to begin with
+sem_init (SfuiJ], 0, QM; // ... and 0 are full
+sem _init(amutex, 0, 1); // mutex=1 because it is a lock
+
+
+
+###################################### Frame 9780 : 9960 ###########################################
+
+
+Example: Producer/Consumer (1)
+Need two semaphores for signaling
+
+— One to track empty slots, and make producer wait
+if no more empty slots
+
+— One to track full slots, and make consumer wait if
+no more full slots
+
+One semaphore to act as mutex for buffer
+
+- main(int argc, char *argv[]) f
+‘fos.
+
+sem_init (sempty, 0, MAX); // MAX buffers are empty to begin with
+sem_init {Sfu/J, 0, O; // ... and 0 are full
+sem _init(amutex, 0, 1); // mutex=1 because it is a lock
+
+
+
+###################################### Frame 9960 : 10080 ###########################################
+
+
+Example: Producer/Consumer (1)
+Need two semaphores for signaling
+
+— One to track empty slots, and make producer wait
+if no more empty slots
+
+— One to track full slots, and make consumer wait if
+no more full slots
+
+One semaphore to act as mutex for buffer
+
+- main(int argc, char *argv[]) f
+‘fos.
+
+sem_init (sempty, 0, MAX); // MAX buffers are empty to begin with
+sem_init (Sfu/J], 0, M; // ... and 0 are full
+sem _init(amutex, 0, 1); // mutex=1 because it is a lock
+
+
+
+###################################### Frame 10080 : 10140 ###########################################
+
+
+Example: Producer/Consumer (1)
+Need two semaphores for signaling
+
+— One to track empty slots, and make producer wait
+if no more empty slots
+
+— One to track full slots, and make consumer wait if
+no more full slots
+
+One semaphore to act as mutex for buffer
+
+- main(int argc, char *argv[]) f
+‘fos.
+
+sem_init (sempty, 0, MAX); // MAX buffers are empty to begin with
+sem_init (Sfu/J], 0, M; // ... and 0 are full
+sem init (amutex, 0, 1); // mutex=1 because it is a lock
+
+
+
+###################################### Frame 10140 : 10800 ###########################################
+
+
+Example: Producer/Consumer (1)
+Need two semaphores for signaling
+
+— One to track empty slots, and make producer wait
+if no more empty slots
+
+— One to track full slots, and make consumer wait if
+no more full slots
+
+One semaphore to act as mutex for buffer
+
+- main(int argc, char *argv[]) f
+‘fos.
+
+sem_init (sempty, 0, MAX); // MAX buffers are empty to begin with
+sem_init (Sfu/J], 0, M; // ... and 0 are full
+sem _init(amutex, 0, 1); // mutex=1 because it is a lock
+
+
+
+###################################### Frame 10800 : 10920 ###########################################
+
+
+Example: Producer/Consume
+
+16
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+void »producer (void s#arg) {
+
+int i;
+
+for (i = 0; i < loops; i++) {
+sem_wait (&empty);
+sem_wait (&mutex);
+put (i);
+sem_post (&mutex);
+sem_post (&full);
+
+}
+
+void *consumer (void sarg) {
+
+int i;
+
+for (i = 0; i < loops; i++) {
+sem_wait (&full);
+sem_wait (&mutex);
+int tmp = get ();
+sem_post (&mutex);
+sem_post (Sempty);
+printf("$d\n", tmp);
+
+  
+
+
+
+###################################### Frame 10920 : 11040 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+wey aukone
+
+16
+
+void «producer (void sarg) {
+
+int
+for
+
+}
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (sempty);
+sem_wait (amutex);
+
+put (i);
+
+sem_post (&mutex);
+sem_post (&full);
+
+void «consumer (void *arg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (&full);
+
+sem_wait (&mutex);
+
+int tmp = get ();
+
+sem_post (&mutex);
+sem_post (Sempty);
+printf("$d\n", tmp);
+
+  
+
+
+
+###################################### Frame 11040 : 11100 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+Cer aunekone
+
+16
+
+void «producer (void +#arg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (gempty);
+sem_wait (gmutex)?
+
+put (i);
+
+sem_post (&mutex);
+sem_post (&full);
+
+void «consumer (void +#arg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (&full);
+
+sem_wait (&mutex);
+
+int tmp = get ();
+
+sem_post (&mutex);
+sem_post (Sempty);
+printf£i("$d\n", tmp);
+
+
+
+###################################### Frame 11100 : 11160 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+wary auneone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (gempty);
+sem_wait (&mutex);
+
+put (i);
+
+sem_post (&mutex);
+sem_post (&full);
+
+void «consumer (void +*arg) {
+
+int
+for
+
+iy
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+
+sem_wait (&mutex) ;-
+
+int tmp = get ();
+
+sem_post (&mutex);
+sem_post (Sempty);
+printfi"$d\n", tmp);
+
+
+
+###################################### Frame 11160 : 11220 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+wary auneone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (gempty);
+sem_wait (&mutex);
+
+put (i);
+
+sem_post (&mutex);
+sem_post (&full);
+
+void «consumer (void +*arg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+
+sem_wait (mutex);
+
+int tmp = get ();
+
+sem_post (&mutex);
+sem_post (Sempty);
+printfi"$d\n", tmp);
+
+
+
+###################################### Frame 11220 : 11280 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+wary aneone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (gempty);
+sem_wait (amutex)?
+
+put (i);
+
+sem_post (&mutex);
+sem_post (&full);
+
+void «consumer (void #arg) {
+
+int
+for
+
+iy
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+
+sem_wait (&mutex);
+
+int tmp = get ();
+
+sem_post (&mutex);
+sem_post (Sempty);
+printfi("$d\n", tmp);
+
+
+
+###################################### Frame 11280 : 11340 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+wary aneone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (gempty);
+sem_wait (amutex)?
+
+put (i);
+
+sem_post (&mutex);
+sem_post (&full);
+
+void «consumer (void #arg) {
+
+int
+for
+
+iy
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+
+sem_wait (&mutex);
+
+int tmp = get ();
+
+sem_post (&mutex)j
+sem_post (Sempty);
+printfi("$d\n", tmp);
+
+
+
+###################################### Frame 11340 : 11400 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+wary aneone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (gempty);
+sem_wait (amutex)?
+
+put (i);
+
+sem_post (&mutex);
+sem_post (&full);
+
+void «consumer (void #arg) {
+
+int
+for
+
+iy
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+
+sem_wait (&mutex);
+
+int tmp = get ();
+
+sem_post (&mutex);
+sem_post (Sempty);
+printfi("$d\n", tmp);
+
+
+
+###################################### Frame 11400 : 11520 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+wary aneone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (gempty);
+sem_wait (amutex)?
+
+put (i);
+
+sem_post (&mutex);
+sem_post (&full);
+
+void «consumer (void #arg) {
+
+int
+for
+
+iy
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+
+sem_wait (&mutex);
+
+int tmp = get ();
+
+sem_post (&mutex) 3]
+sem_post (cempty);
+printfi("$d\n", tmp);
+
+
+
+###################################### Frame 11520 : 11580 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+Cary aunekone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (gempty);
+sem_wait (amutex)?
+
+put (i);
+
+sem_post (&mutex);
+sem_post (&full);
+
+void «consumer (void #arg) {
+
+int
+for
+
+iy
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+
+sem_wait (&mutex);
+
+int tmp = get ();
+
+sem_post (&mutex) 3]
+sem_post (Sempty);
+printfi("$d\n", tmp);
+
+
+
+###################################### Frame 11580 : 11640 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+Cary aunekone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (Sempty);"
+sem_wait (amutex)?
+
+put (i);
+
+sem_post (&mutex);
+sem_post (&full);
+
+void «consumer (void #arg) {
+
+int
+for
+
+iy
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+
+sem_wait (&mutex);
+
+int tmp = get ();
+
+sem_post (&mutex)j
+sem_post (Sempty);
+printfi("$d\n", tmp);
+
+
+
+###################################### Frame 11640 : 11700 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+Cary aunekone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (sempty) ;-
+sem_wait (amutex)?
+
+put (i);
+
+sem_post (&mutex);
+sem_post (&full);
+
+void «consumer (void #arg) {
+
+int
+for
+
+iy
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+
+sem_wait (&mutex);
+
+int tmp = get ();
+
+sem_post (&mutex)j
+sem_post (Sempty);
+printfi("$d\n", tmp);
+
+
+
+###################################### Frame 11700 : 11760 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+Cary aunekone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (sempty) ;
+sem_wait (amutex)?
+
+put (i);
+
+sem_post (&mutex);
+sem_post (&full);
+
+void «consumer (void #arg) {
+
+int
+for
+
+iy
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+
+sem_wait (&mutex);
+
+int tmp = get ();
+
+sem_post (&mutex)j
+sem_post (Sempty);
+printfi"$d\n", tmp);
+
+
+
+###################################### Frame 11760 : 11820 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+Cary aunekone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (Sempty);-
+sem_wait (amutex)?
+
+put (i);
+
+sem_post (&mutex);
+sem_post (&full);
+
+void «consumer (void #arg) {
+
+int
+for
+
+iy
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+
+sem_wait (&mutex);
+
+int tmp = get ();
+
+sem_post (&mutex)j
+sem_post (Sempty);
+printfi"$d\n", tmp);
+
+
+
+###################################### Frame 11820 : 11880 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+Cary aunekone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (sempty) ;
+sem_wait (amutex)7
+
+put (i);
+
+sem_post (&mutex);
+sem_post (&full);
+
+void *consumer (void #arg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (&full);
+
+sem_wait (&mutex);
+
+int tmp = get ();
+
+sem_post (&mutex)j
+sem_post (Sempty);
+printfi"$d\n", tmp);
+
+
+
+###################################### Frame 11880 : 11940 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+Cary aunekone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (&empty) 7"
+sem_wait (amutex)?
+
+put (i);
+
+sem_post (&mutex);
+sem_post (&full);
+
+void «consumer (void +#arg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (&full);
+
+sem_wait (&mutex);
+
+int tmp = get ();
+
+sem_post (&mutex)j
+sem_post (Sempty);
+printfi"$d\n", tmp);
+
+
+
+###################################### Frame 11940 : 12000 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+Cary aunekone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (&empty) ;-
+sem_wait (amutex)?
+
+put (i);
+
+sem_post (&mutex);
+sem_post (&full);
+
+void «consumer (void +#arg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (&full);
+
+sem_wait (&mutex);
+
+int tmp = get ();
+
+sem_post (&mutex)j
+sem_post (Sempty);
+printfi"$d\n", tmp);
+
+
+
+###################################### Frame 12000 : 12060 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+Cary aunekone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (gempty) j-
+sem_wait (amutex)?
+
+put (i);
+
+sem_post (&mutex);
+sem_post (&full);
+
+void «consumer (void #arg) {
+
+int
+for
+
+iy
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+
+sem_wait (&mutex);
+
+int tmp = get ();
+
+sem_post (&mutex)j
+sem_post (Sempty);
+printfi"$d\n", tmp);
+
+
+
+###################################### Frame 12060 : 12120 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+Cary aunekone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (&empty);"
+
+Sem wait (amutex);
+
+put (i);
+
+sem_post (&mutex);
+sem_post (&full);
+
+void «consumer (void #arg) {
+
+int
+for
+
+iy
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+
+sem_wait (&mutex);
+
+int tmp = get ();
+
+sem_post (&mutex)j
+sem_post (Sempty);
+printfi"$d\n", tmp);
+
+
+
+###################################### Frame 12120 : 12180 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+Cary aunekone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (&empty) y~
+
+Sem wait (amutex);
+
+put (i);
+
+sem_post (&mutex);
+sem_post (&full);
+
+void «consumer (void #arg) {
+
+int
+for
+
+iy
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+
+sem_wait (&mutex);
+
+int tmp = get ();
+
+sem_post (&mutex)j
+sem_post (Sempty);
+printfi"$d\n", tmp);
+
+
+
+###################################### Frame 12180 : 12240 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+wary aneone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+void «consumer (void #arg) {
+
+int
+for
+
+i;
+(i = 0; i < loops; i++) {
+sem_wait (kempty) 7
+sem_wait (&mutex);
+put (i);
+
+sem_post (&mutex);
+sem_post (&4full);
+
+ 
+   
+
+  
+
+i;
+
+(i = 0; i < loops; i++}
+sem_wait (&full);
+sem_wait (&mutex);
+int tmp = get ();
+sem_post (&mutex)j
+sem_post (Sempty);
+printfi"$d\n", tmp);
+
+4
+
+
+
+###################################### Frame 12240 : 12360 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+wary aneone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+void «consumer (void #arg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (kempty) 7
+sem_wait (&mutex);
+put (i);
+
+sem_post (&mutex);
+sem_post (&4full);
+
+ 
+    
+  
+  
+ 
+ 
+  
+
+iy
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+sem_wait (&mutex);
+int tmp = get ();
+sem_post (&mutex)j
+sem_post (empty) j,
+printfi"$d\n", tmp);
+
+
+
+###################################### Frame 12360 : 12420 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+Cary aunekone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+void «consumer (void #arg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (kempty) 7
+sem_wait (&mutex);
+put (i);
+
+sem_post (&mutex);
+sem_post (&full);
+
+ 
+    
+  
+  
+ 
+ 
+  
+
+i;
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+sem_wait (&mutex);
+int tmp = get ();
+sem_post (&mutex)j
+sem_post (empty) j,
+printf£i"$d\n", tmp);
+
+
+
+###################################### Frame 12420 : 12480 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+Cary aunekone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+void «consumer (void #arg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (gempty) ;~
+sem_wait (&mutex);
+put (i);
+
+sem_post (&mutex);
+sem_post (&full);
+
+ 
+    
+  
+  
+ 
+ 
+  
+
+i;
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+sem_wait (&mutex);
+int tmp = get ();
+sem_post (&mutex)j
+sem_post (empty) j,
+printf£i"$d\n", tmp);
+
+
+
+###################################### Frame 12480 : 12660 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+Cary aunekone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+void «consumer (void #arg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (kempty) 7
+sem_wait (&mutex);
+put (i);
+
+sem_post (&mutex);
+sem_post (&4full);
+
+ 
+    
+  
+  
+ 
+ 
+  
+
+i;
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+sem_wait (&mutex);
+int tmp = get ();
+sem_post (&mutex);
+sem_post (empty) j,
+printf£i"$d\n", tmp);
+
+
+
+###################################### Frame 12660 : 12720 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+Cary aunekone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+void «consumer (void #arg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (kempty) 7
+sem_wait (&mutex);
+put (i);
+
+sem_post (&mutex);
+sem_post (&4full);
+
+ 
+    
+  
+  
+  
+  
+
+i;
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+Sem_wait (&mutex);
+int tmp = get ();
+sem_post (&mutex);
+sem_post (empty) j,
+printf£i"$d\n", tmp);
+
+
+
+###################################### Frame 12720 : 12780 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+Cary aunekone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+void «consumer (void #arg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (kempty) 7
+sem_wait (&mutex);
+put (i);
+
+sem_post (&mutex);
+sem_post (&4full);
+
+ 
+    
+  
+  
+ 
+ 
+  
+
+iy
+
+(i = 0; i < loops; it+) {
+sem_wait (sfull);
+sem_wal eX) 7
+int tmp = get ();
+sem_post (&mutex);
+sem_post (empty) j,
+printf£i"$d\n", tmp);
+
+
+
+###################################### Frame 12780 : 12840 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+Cary aunekone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+void «consumer (void #arg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (kempty) 7
+sem_wait (&mutex);
+put (i);
+
+sem_post (&mutex);
+sem_post (&4full);
+
+ 
+    
+  
+  
+ 
+ 
+  
+
+iy
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+sem_wal eX) 7
+int tmp = get ();
+sem_post (&mutex);
+sem_post (empty) j,
+printf£i"$d\n", tmp);
+
+
+
+###################################### Frame 12840 : 12900 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+Cary aunekone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+void «consumer (void #arg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (kempty) 7
+sem_wait (&mutex);
+put (i);
+
+sem_post (&mutex);
+sem_post (&4full);
+
+ 
+    
+  
+  
+ 
+ 
+  
+
+i;
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+Sem_wat @x)}
+int tmp = get ();
+sem_post (&mutex);
+sem_post (empty) j,
+printf£i"$d\n", tmp);
+
+  
+
+
+
+###################################### Frame 12900 : 12960 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+Cary aunekone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+void «consumer (void #arg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (kempty) 7
+sem_wait (&mutex);
+put (i);
+
+sem_post (&mutex);
+sem_post (&4full);
+
+ 
+ 
+  
+  
+ 
+    
+ 
+    
+ 
+
+i;
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+Sem_Wat @x)}
+int tmp = get ();
+sem_post (&mutex);
+
+
+
+###################################### Frame 12960 : 13020 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+Cary aunekone
+
+16
+
+void «producer (void #arg) {
+
+int
+for
+
+}
+
+void *consumer (void *arg) {
+int i;
+
+for
+
+i;
+
+(i = 0; i < loops; i++) {
+sem_wait (kempty) 7
+sem_wait (&mutex);
+put (i);
+
+sem_post (&mutex);
+sem_post (&4full);
+
+ 
+    
+  
+  
+ 
+ 
+  
+
+(i = 0; i < loops; i++) {
+sem_wait (&full);
+Sem wat @x)}
+int tmp = get ();
+sem_post (&mutex);
+sem_post (empty) j,
+printf£i"$d\n", tmp);
+
+  
+
+
+
+###################################### Frame 13020 : 13140 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+void «producer (void #arg) {
+
+int
+
+for
+
+void «consumer (void #arg) {
+
+int
+for
+
+    
+
+is
+
+(i = 0; i < loops; i++) {
+sem_wait (kempty) 7
+sem_wait (&mutex);
+put (i);
+
+sem_post (&mutex);
+em_post (&full);
+
+ 
+    
+  
+  
+ 
+ 
+  
+
+iy
+
+(i = 0; i < loops; i++) {
+sem_wait (&full);
+sem_wal ex);
+int tmp = get ();
+sem_post (&mutex);
+sem_post (empty) j,
+printf£i"$d\n", tmp);
+
+  
+
+
+
+###################################### Frame 13140 : 13200 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+void «producer (void #arg) {
+
+int
+
+for
+
+void «consumer (void #arg) {
+
+int
+for
+
+ 
+  
+
+is
+
+(i = 0; i < loops; i++) {
+sem_wait (kempty) 7
+sem_wait (&mutex);
+put (i);
+
+sem_post (&mutex);
+em_post (&full);
+
+ 
+    
+  
+  
+ 
+ 
+  
+
+iy
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+sem_wal eX) 7
+int tmp = get();
+sem_post (&mutex)j
+sem_post (kempty),,
+printf£i("$d\n", tmp);
+
+  
+
+
+
+###################################### Frame 13200 : 13260 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+void «producer (void #arg) {
+
+int
+
+for
+
+void «consumer (void #arg) {
+
+int
+for
+
+ 
+  
+
+is
+
+(i = 0; i < loops; i++) {
+sem_wait (kempty)?
+sem_wait (&mutex);
+put (i);
+
+sem_post (&mutex);
+em_post (&full);
+
+ 
+    
+  
+  
+ 
+ 
+  
+
+i;
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+sem_wal ex);
+int tmp = get (};
+sem_post (&mutex)j
+sem_post (empty) j,
+printf£i("$d\n", tmp);
+
+  
+
+
+
+###################################### Frame 13260 : 13320 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+void «producer (void #arg) {
+
+int
+
+for
+
+void «consumer (void #arg) {
+
+int
+for
+
+ 
+  
+
+is
+
+(i = 0; i < loops; i++) {
+sem_wait (kempty)?
+sem_wait (&mutex);
+put (i);
+
+sem_post (&mutex);
+em_post (&full);
+
+ 
+    
+  
+  
+ 
+ 
+  
+
+i;
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+sem_wal ex);
+int tmp = get (};
+sem_post (&mutex)j
+sem_post (kempty),,
+printf£i("$d\n", tmp);
+
+  
+
+
+
+###################################### Frame 13320 : 13440 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+void «producer (void #arg) {
+
+int
+
+for
+
+void «consumer (void #arg) {
+
+int
+for
+
+ 
+  
+
+is
+
+(i = 0; i < loops; i++) {
+sem_wait (&empty)?
+sem_wait (&mutex);
+put (i);
+
+sem_post (&mutex);
+em_post (&full);
+
+ 
+    
+  
+  
+ 
+ 
+  
+
+i;
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+sem_waL ex);
+int tmp = get ();
+sem_post (&mutex);
+sem_post (empty) j,
+printf£("$d\n", tmp);
+
+  
+
+
+
+###################################### Frame 13440 : 13560 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+void «producer (void #arg) {
+
+int
+
+for
+
+void «consumer (void #arg) {
+
+int
+for
+
+ 
+  
+
+is
+
+(i = 0; i < loops; i++) {
+sem_wait (kempty)?
+sem_wait (&mutex);
+put (i);
+
+sem_post (&mutex);
+em_post (&full);
+
+ 
+    
+  
+  
+ 
+ 
+  
+
+i;
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+sem_waL ex);
+int tmp = get (};
+sem_post (&mutex);
+sem_post (empty) j,
+printf£("$d\n", tmp);
+
+  
+
+
+
+###################################### Frame 13560 : 13620 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+
+sleeps with mutex
+
+and the signaling
+thread can never
+wake it up
+
+void «producer (void +arg) {
+
+int
+for
+
+}
+
+ 
+
+i
+
+(
+
+ 
+
+= 0; i < loops; i++)
+ait (&mutex);
+
+sem_wait (Sempty);
+
+put (i);
+
+sem_post (&full);
+sem_post (&mutex);
+
+void «consumer (void sarg) {
+
+int
+for
+
+i
+
+{i = 0; i < loops; i++)
+
+sem_wait (&mutex);
+sem_wait (&full);
+int tmp = get();
+sem_post (sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+
+{
+
+
+
+###################################### Frame 13620 : 13680 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+void *producer (void s*arg) {
+int
+
+for
+
+void «consumer (void sarg) {
+
+int
+for
+
+    
+
+ik
+
+(i = 0; i < loops; i++) {
+sem_wait (&empty}
+sem_wait (&mutex);
+put (i);
+
+sem_post (&mutex);
+em_post (&full);
+
+ 
+    
+  
+  
+ 
+ 
+  
+
+iy
+
+(i = 0; i < loops; i++) {
+sem_wait (&full);
+sem_wal ex);
+int tmp = get);
+sem_post (amutex);
+sem_post (&empty) ;,
+printf£("$d\n", tmp);
+
+  
+
+
+
+###################################### Frame 13680 : 13740 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+void *producer (void s*arg) {
+int
+
+for
+
+void «consumer (void sarg) {
+
+int
+for
+
+    
+
+ik
+
+(i = 0; i < loops; i++) {
+sem_wait (&empty}
+sem_wait (amutex);
+put (i);
+
+sem_post (&mutex);
+em_post (&full);
+
+   
+  
+  
+  
+ 
+ 
+  
+
+iy
+
+(i = 0; i < loops; i++) {
+sem_wait (&full);
+sem_wal ex);
+int tmp = get);
+sem_post (amutex);
+sem_post (&empty) ;,
+printf£("$d\n", tmp);
+
+  
+
+
+
+###################################### Frame 13740 : 13800 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+void *producer (void s*arg) {
+int
+
+for
+
+void «consumer (void sarg) {
+
+int
+for
+
+    
+
+ik
+
+(i = 0; i < loops; i++) {
+sem_wait (&empty}
+sem_wait (gmutex);
+put (i);
+
+sem_post (&mutex);
+em_post (&full);
+
+   
+  
+  
+  
+ 
+ 
+  
+
+iy
+
+(i = 0; i < loops; i++) {
+sem_wait (&full);
+sem_wal ex);
+int tmp = get);
+sem_post (amutex);
+sem_post (&empty) ;,
+printf£("$d\n", tmp);
+
+  
+
+
+
+###################################### Frame 13800 : 13860 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+void «producer (void #arg) {
+
+int
+
+for
+
+void «consumer (void #arg) {
+
+int
+for
+
+ 
+  
+
+is
+
+(i = 0; i < loops; i++) {
+sem_wait (&empty)
+Sem wait (gmutex);
+put (i);
+
+sem_post (&mutex);
+em_post (&full);
+
+   
+  
+  
+  
+ 
+ 
+  
+
+iy
+
+(i = 0; i < loops; it+) {
+sem_wait (&full);
+sem_wai eX);
+int tmp = get);
+sem_post (&mutex)j
+sem_post (&empty),,
+printfi("$d\n", tmp);
+
+  
+
+
+
+###################################### Frame 13860 : 13920 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void *producer (void +arg) {
+
+int
+
+for (i = 0; i < loops; i++)
+
+}
+
+i
+
+sem_wait (&mutex);
+sem_wait (Sempty);
+
+put (i);
+
+sem_post (&full);
+sem_post (&mutex);
+
+void *consumer (void #arg) {
+
+int
+for
+
+i
+
+{i = 0; i < loops; i++)
+
+sem_wait (&mutex);
+sem_wait (&full);
+int tmp = get();
+sem_post (cempty);
+sem_post (&mutex);
+
+printf ("Sd\n",
+
+tmp);
+
+{
+
+{
+
+
+
+###################################### Frame 13920 : 13980 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void +arg) {
+
+int i;
+
+for (i = 0; i < loops; i++)
+
+sem_wait (Smutex);
+sem_wait (Sempty);
+
+put (i);
+
+sem_post (&full);
+sem_post (&mutex);
+
+}
+
+void «consumer (void +arg) {
+
+int i;
+
+for (i = 0; i < loops; i++)
+
+sem_wait (&mutex);
+sem_wait (&full);
+int tmp = get();
+sem_post (Sempty);
+sem_post (&mutex);
+
+printf("8d\n",
+
+tmp);
+
+{
+
+{
+
+
+
+###################################### Frame 13980 : 14100 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+void *producer (void sarg) {
+
+int
+
+for
+
+void «consumer (void sarg) {
+
+int
+for
+
+    
+
+ik
+
+(i = 0; i < loops; i++) {
+sem_wait (&empty}
+sem_wait (gmutex);
+put (i);
+
+sem_post (&mutex);
+em_post (&full);
+
+   
+  
+  
+  
+ 
+ 
+  
+
+iy
+
+(i = 0; i < loops; i++) {
+sem_wait (&full);
+sem_wal ex);
+int tmp = get);
+sem_post (amutex);
+sem_post (&empty) ;,
+printf£i"$d\n", tmp);
+
+  
+
+
+
+###################################### Frame 14100 : 14160 ###########################################
+
+
+Example: Producer/Consume
+
+sem_t empty;
+sem_t full;
+sem_t mutex;
+
+void «producer (void sarg) {
+
+int
+
+for
+
+void «consumer (void sarg) {
+
+int
+for
+
+ 
+  
+
+iy
+
+(i = 0; i < loops; i++) {
+sem_wait (&empty)
+Sem wait (gmutex);
+put (i);
+
+sem_post (&mutex);
+em_post (&full);
+
+   
+  
+  
+  
+ 
+ 
+  
+
+iy
+
+(i = 0; i < loops; i++) {
+sem_wait (4full);
+sem_wal ex) 7
+int tmp = get();
+sem_post (amutex);
+sem_post (&empty),,
+printfi("$d\n", tmp);
+
+  
+
+
+
+###################################### Frame 14160 : 14220 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void *producer (void +arg) {
+
+int i;
+for (i
+
+ 
+
+= 0; i < loops; i++)
+ait (&mutex);
+
+sem_wait (Sempty);
+
+put (i);
+
+sem_post (&full)};
+sem_post (&mutex);
+
+void *consumer (void +arg) {
+
+int i;
+
+for {i = 0; i < loops; i++)
+
+sem_wait (&mutex);
+sem_wait (&full);
+int tmp = get();
+sem_post (sempty);
+sem_post (&mutex);
+
+printf ("Sd\n",
+
+tmp);
+
+{
+
+{
+
+
+
+###################################### Frame 14220 : 14280 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void +arg) {
+
+ 
+
+int i;
+for (i = 0; i < loops; i++)
+5 ait (smutex) ;
+
+  
+
+sem_wait (Sempty);
+
+‘put (i);
+
+sem_post (&full)};
+sem_post (&mutex);
+
+}
+
+void «consumer (void sarg) {
+
+int i;
+
+for (i = 0; i < loops; i++)
+
+sem_wait (&mutex);
+sem_wait (&full);
+int tmp = get();
+sem_post (sempty);
+sem_post (&mutex);
+
+printf ("Sd\n",
+
+tmp);
+
+{
+
+{
+
+
+
+###################################### Frame 14280 : 14340 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void +arg) {
+
+int
+for
+
+}
+
+i;
+
+ie
+
+  
+  
+
+= 0; i < loops; i++}
+
+sem_wait (smutex) ;
+sem_wait (sempty);
+
+put thy;
+
+sem_post (&full);
+sem_post (4mutex);
+
+void «consumer (void sarg) {
+
+int
+for
+
+i
+
+(i = 0; i < loops; i++)
+
+sem_wait (&mutex);
+sem_wait (&full);
+int tmp = get ();
+sem_post (Sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+
+{
+
+
+
+###################################### Frame 14340 : 14400 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void +arg) {
+
+int
+for
+
+i;
+
+{i = 0; i < loops; i++)
+__wait (gmutex) ;
+
+ 
+
+ 
+
+“ sem_wait (fempty};
+
+}
+
+put (ayy
+
+sem_post (&full);
+sem_post (&4mutex);
+
+void «consumer (void sarg) {
+
+int
+for
+
+i
+
+(i = 0; i < loops; i++)
+
+sem_wait (&mutex);
+sem_wait (&full);
+int tmp = get ();
+sem_post (Sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+
+{
+
+
+
+###################################### Frame 14400 : 14460 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void #arg) {
+
+int
+
+i;
+
+for (i = 0; i < loops; i++) {
+
+_Sem_wait (amutex) j
+
+sem_wait (Sempty);
+
+}
+
+put (hy;
+
+sem_post (&full);
+sem_post (&mutex);
+
+void «consumer (void sarg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; i++)
+
+sem_wait (&mutex};
+sem_wait (&full);
+int tmp = get();
+sem_post (sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+
+
+
+###################################### Frame 14460 : 14520 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void #arg) {
+
+int
+
+i;
+
+for (i = 0; i < loops; i++) {
+
+_Sem_wast (smutex);
+
+sem_wait (Sempty);
+
+}
+
+put (hy}
+
+sem_post (&full);
+sem_post (&mutex);
+
+void «consumer (void sarg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; i++)
+
+sem_wait (&mutex};
+sem_wait (&full);
+int tmp = get();
+sem_post (sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+
+
+
+###################################### Frame 14520 : 14580 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void #arg) {
+
+int
+
+i;
+
+for (i = 0; i < loops; i++) {
+
+_Sem_wait (amutex) ;
+
+sem_wait (Sempty);
+
+}
+
+put (iF
+
+sem_post (&full);
+sem_post (&mutex);
+
+void «consumer (void sarg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; i++)
+
+sem_wait (&mutex};
+sem_wait (&full);
+int tmp = get();
+sem_post (sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+
+
+
+###################################### Frame 14580 : 14640 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void #arg) {
+
+int
+
+i;
+
+for (i = 0; i < loops; i++) {
+
+Sem_wait (amutex) ;
+
+sem_wait (Sempty) i.
+
+}
+
+put (yy
+
+sem_post (sfull);
+sem_post (&mutex);
+
+void «consumer (void sarg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; i++)
+
+sem_wait (&mutex};
+sem_wait (&full);
+int tmp = get();
+sem_post (sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+
+
+
+###################################### Frame 14640 : 14700 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void #arg) {
+
+int
+
+i;
+
+for (i = 0; i < loops; i++) {
+
+_Sem_wait (smutex) 7
+sem_wait (sempty)i
+sea
+sem_post (&full);
+sem_post (&mutex);
+
+}
+
+void «consumer (void sarg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; i++)
+
+sem_wait (&mutex};
+sem_wait (&full);
+int tmp = get();
+sem_post (sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+
+
+
+###################################### Frame 14700 : 14760 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void #arg) {
+
+int
+
+i;
+
+for (i = 0; i < loops; i++) {
+
+_Sem_wait (smutex);
+sem_wait (sempty}i
+sea
+sem_post (&full);
+sem_post (&mutex);
+
+}
+
+void «consumer (void sarg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; i++)
+
+sem_wait (&mutex};
+sem_wait (&full);
+int tmp = get();
+sem_post (sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+
+
+
+###################################### Frame 14760 : 14820 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void #arg) {
+
+int
+
+i;
+
+for (i = 0; i < loops; i++) {
+sem_wait (empty):
+sem_post (&full);
+sem_post (&mutex);
+
+}
+
+void «consumer (void sarg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; i++)
+
+sem_wait (&mutex};
+sem_wait (éfull);
+int tmp = get();
+sem_post (sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+
+
+
+###################################### Frame 14820 : 14880 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void #arg) {
+
+int
+
+i;
+
+for (i = 0; i < loops; i++) {
+sem_wait (empty):
+sem_post (&full);
+sem_post (&mutex);
+
+}
+
+void «consumer (void sarg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; i++)
+
+sem_wait (&mutex};
+sem_wait (&full);
+int tmp = get();
+sem_post (sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+
+
+
+###################################### Frame 14880 : 14940 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void #arg) {
+
+int
+
+i;
+
+for (i = 0; i < loops; i++) {
+sem_wait (empty):
+sem_post (&full);
+sem_post (&mutex);
+
+}
+
+void «consumer (void sarg) {
+
+int
+for
+
+i;
+
+(i = 0; i < loops; i++)
+
+sem_wait (&mutex};
+sem_wait (&full);
+int tmp = get();
+sem_post (Sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+
+
+
+###################################### Frame 14940 : 15060 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void #arg) {
+
+int i;
+
+for (i = 0; i < loops; i++) {
+sem_wait (empty):
+sem_post (&full);
+sem_post (&mutex);
+
+}
+
+void «consumer (void sarg) {
+
+int i;
+
+for (i = 0; i < loops; i++)
+
+sem_wait (&mutex};
+sem_wait (&full);
+int tmp = get();
+sem_post (Sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+
+
+
+###################################### Frame 15060 : 15180 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void #arg) {
+
+int i;
+
+for (i = 0; i < loops; i++) {
+_Sem_wait (smutex);
+sem_wait (sempty)i
+sea
+sem_post (&full);
+sem_post (&mutex);
+
+}
+
+void «consumer (void sarg) {
+
+int i;
+
+for (i = 0; i < loops; i++)
+
+sem_wait (&mutex);
+sem_wait (&full);
+int tmp = get();
+sem_post (sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+
+
+
+###################################### Frame 15180 : 15240 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void #arg) {
+
+int i;
+
+for (i = 0; i < loops; i++) {
+sem_wait (empty):
+sem_post (&full);
+sem_post (&mutex);
+
+}
+
+void «consumer (void sarg) {
+
+int i;
+
+for (i = 0; i < loops; i++)
+
+sem_wait (&mutex);
+sem_wait (&full);
+int tmp = get();
+sem_post (sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+
+
+
+###################################### Frame 15240 : 15420 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void #arg) {
+
+int i;
+
+for (i = 0; i < loops; i++) {
+_Sem_wait (smutex);
+sem_wait (sempty)i
+sem_post (&full);
+sem_post (&mutex);
+
+}
+
+void «consumer (void sarg) {
+
+int i;
+
+for (i = 0; i < loops; i++)
+
+sem_wait (&mutex);
+sem_wait (&full);
+int tmp = get();
+sem_post (sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+
+
+
+###################################### Frame 15420 : 15480 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void #arg) {
+
+int i;
+
+for {i = 0; i < loops; i++) {
+sem_wait (Sempty)i
+Sa
+sem_post (&full);
+sem_post (&mutex);
+
+}
+
+void «consumer (void sarg) {
+
+int i;
+
+for (i = 0; i < loops; i++)
+
+sem_wait (&mutex);
+sem_wait (&full);
+int tmp = get();
+sem_post (sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+
+
+
+###################################### Frame 15480 : 15540 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void #arg) {
+
+int i;
+
+for {i = 0; i < loops; i++) {
+sem_wait (&empty}i
+Sa
+sem_post (&full);
+sem_post (&mutex);
+
+}
+
+void «consumer (void sarg) {
+
+int i;
+
+for (i = 0; i < loops; i++)
+
+sem_wait (&mutex);
+sem_wait (&full);
+int tmp = get();
+sem_post (sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+
+
+
+###################################### Frame 15540 : 15600 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void #arg) {
+
+int i;
+
+for {i = 0; i < loops; i++) {
+sem_wait (Gempty)i
+Sa
+sem_post (&full);
+sem_post (&mutex);
+
+}
+
+void «consumer (void sarg) {
+
+int i;
+
+for (i = 0; i < loops; i++)
+
+sem_wait (&mutex);
+sem_wait (&full);
+int tmp = get();
+sem_post (sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+
+
+
+###################################### Frame 15600 : 15660 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void #arg) {
+
+int i;
+
+for {i = 0; i < loops; i++) {
+sem_wait (empty):
+Sa
+sem_post (&full);
+sem_post (&mutex);
+
+}
+
+void «consumer (void sarg) {
+
+int i;
+
+for (i = 0; i < loops; i++)
+
+sem_wait (&mutex);
+sem_wait (&full);
+int tmp = get();
+sem_post (sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+
+
+
+###################################### Frame 15660 : 15720 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void #arg) {
+
+int i;
+
+for (i = 0; i < loops; i++) {
+
+sem_wait (cempty)
+
+  
+
+put (i
+
+E 7
+sem_post (&full);
+
+  
+
+ 
+
+sem_post (&mutex);
+
+}
+
+void «consumer (void sarg) {
+
+int i;
+
+for (i = 0; i < loops; i++)
+
+sem_wait (&mutex);
+sem_wait (&full);
+int tmp = get();
+sem_post (sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+
+
+
+###################################### Frame 15720 : 15780 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void #arg) {
+
+int i;
+
+for (i = 0; i < loops; i++) {
+
+put tis
+
+sem_wait (Sempty)
+
+    
+
+sem_post (sfull);
+sem_post (&mutex);
+
+}
+
+void «consumer (void sarg) {
+
+int i;
+
+for (i = 0; i < loops; i++)
+
+sem_wait (&mutex);
+sem_wait (&full);
+int tmp = get();
+sem_post (sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+
+
+
+###################################### Frame 15780 : 15840 ###########################################
+
+
+Incorrect solution with deadlock
+
+5 void s*producer (void sarg) {
+
+6 int i;
+
+7 for (i = 0; i <.loops; i++) {
+8
+
+9
+
+What if lock is
+acquired before
+signaling? 1 Sem post (S£u1L);
+
+12 sem_post (&mutex);
+
+Waiting thread a }
+
+rT }
+
+sleeps with mutex "=
+
+16 void sconsumer (void arg) {
+
+sem_wait (Sempty)
+
+    
+
+' 1 17 int i;
+and the signaling 18 for (i = 0; i < loops; i++} {
+19 sem_wait (&mutex);
+thread can never a sem_wait (full);
+. 2 int tmp = get();
+wake it up 2 sem_post (sempty) ;
+23 sem_post (&mutex);
+
+oy printf("$d\n", tmp);
+
+
+
+###################################### Frame 15840 : 15900 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void #arg) {
+
+int i;
+
+for {i = 0; i < loops; i++) {
+sem_wait (cempty)i
+Sa
+sem_post (&full);
+sem_post (&mutex);
+
+}
+
+void «consumer (void sarg) {
+
+int i;
+
+for (i = 0; i < loops; i++)
+
+sem_wait (&mutex);
+sem_wait (&full);
+int tmp = get();
+sem_post (sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+
+
+
+###################################### Frame 15900 : 16020 ###########################################
+
+
+Incorrect solution with deadlock
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void #arg) {
+
+int i;
+
+for {i = 0; i < loops; i++) {
+sem_wait (cempty)i
+Sa
+sem_post (&full);
+sem_post (&mutex);
+
+}
+
+void «consumer (void sarg) {
+
+int i;
+
+for (i = 0; i < loops; i++)
+
+sem_wait (&mutex};-
+sem_wait (&full);
+int tmp = get();
+sem_post (sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+
+
+
+###################################### Frame 16020 : 16157 ###########################################Incorrect solution with deadlock
+
+
+What if lock is
+acquired before
+signaling?
+Waiting thread
+sleeps with mutex
+and the signaling
+thread can never
+wake it up
+
+void «producer (void #arg) {
+
+int i;
+
+for {i = 0; i < loops; i++) {
+sem_wait (Gempty)i
+Sa
+sem_post (&full);
+sem_post (&mutex);
+
+}
+
+void «consumer (void sarg) {
+
+int i;
+
+for (i = 0; i < loops; i++)
+
+sem_wait (&mutex};-
+sem_wait (&full);
+int tmp = get();
+sem_post (sempty);
+sem_post (&mutex);
+
+printf ("$d\n",
+
+tmp);
+
+{
+

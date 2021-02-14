@@ -1,0 +1,6 @@
+imutils
+numpy
+opencv-python
+matplotlib
+pytesseract
+Pillow
